@@ -13,7 +13,7 @@ function Taskone() {
         <div className="d-flex justify-content-center align-items-center">
           {count < 10 ? (
             <Button variant="primary" className="m-2" onClick={() => setCount(count + 1)}>
-              INCREMENT
+              Increment
             </Button>
           ) : null}
 
